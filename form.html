@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="shadow-nav">
+      <nav class="container">
+        <h1>Fast Travel</h1>
+        <div class="navLink">
+          <a href="index.html">Home</a>
+          <a href="form.html" class="active-nav">Form</a>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="contact">
+        <img src="./images/beach.jpg" alt="" />
+        <div class="form">
+          <h1>Form</h1>
+          <form action="">
+            <div class="input">
+              <label for="name">Nama</label>
+              <input type="text" id="name" name="name" />
+            </div>
+            <div class="input">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="input">
+              <label for="cars">Tujuan</label>
+              <select id="to" name="to">
+                <option value="bali">Bali</option>
+                <option value="korea-selatan">Korea Selatan</option>
+                <option value="russia">Russia</option>
+                <option value="amerika">Amerika</option>
+                <option value="prancis">Prancis</option>
+                <option value="arab-saudi">Arab Saudi</option>
+                <option value="jepang">Jepang</option>
+                <option value="jerman">Jerman</option>
+              </select>
+            </div>
+            <div class="input">
+              <label for="note">Catatan</label>
+              <textarea name="note" id="note" cols="30" rows="10"></textarea>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <label for="checkbox">
+                Saya mengetahui dan berjanji akan mengikuti semua persyaratan
+                dari website ini</label
+              >
+            </div>
+            <button type="submit">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>@ 2024</p>
+    </footer>
+  </body>
+</html>

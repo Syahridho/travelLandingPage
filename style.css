@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+nav h1 {
+  position: absolute;
+  left: 0;
+}
+
+.navLink a {
+  text-decoration: none;
+  color: #9cb0c9;
+  margin: 0 10px;
+}
+
+.active-nav {
+  color: rgb(71, 126, 202) !important;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1))
+    drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+}
+
+.height {
+  height: 10px;
+}
+
+.image-container {
+  max-width: 850px;
+  position: relative;
+  margin: 60px auto 20px auto;
+}
+
+.previous {
+  left: -150px;
+}
+
+.next {
+  right: -150px;
+}
+
+.previous,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  padding: 10px;
+  margin-top: -25px;
+}
+
+.captionText {
+  color: #000000;
+  font-size: 14px;
+  position: absolute;
+  padding: 12px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.bx {
+  font-size: 86px;
+  color: #9cb0c9;
+}
+
+.bx:hover {
+  transition: 1s;
+  color: rgb(122, 122, 122);
+}
+
+.footerdot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #9cb0c9;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.active,
+.footerdot:hover {
+  background-color: rgb(89, 109, 237);
+}
+
+.about {
+  margin: 100px 0;
+}
+
+.about h1 {
+  color: rgb(10, 10, 10);
+  margin-bottom: 24px;
+}
+
+.about-text {
+  display: flex;
+  gap: 120px;
+  text-align: justify;
+}
+
+.about-text p {
+  width: 50%;
+  color: rgb(113, 115, 117);
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.card-container {
+  margin: 100px 0;
+  display: flex;
+  gap: 120px;
+}
+
+.card {
+  width: 50%;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  color: rgb(10, 10, 10);
+}
+
+.card p {
+  color: rgb(113, 115, 117);
+  line-height: 28px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.card img {
+  object-fit: contain;
+  filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1))
+    drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+  width: auto;
+  margin: 20px 0;
+}
+
+.more {
+  margin: 100px 0;
+}
+
+.more h1 {
+  margin-bottom: 20px;
+  color: rgb(10, 10, 10);
+}
+
+.more p {
+  color: rgb(113, 115, 117);
+  width: 80%;
+  line-height: 24px;
+}
+
+.more-img {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+footer {
+  padding: 16px 0;
+  border-top: 1px solid rgb(233, 233, 233);
+}
+
+footer p {
+  text-align: center;
+  color: rgb(113, 115, 117);
+}
+
+/* Form */
+
+.shadow-nav {
+  border-bottom: 1px solid rgb(228, 226, 226);
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+}
+
+.contact {
+  width: 100%;
+  margin: 70px 0;
+  display: flex;
+}
+
+.contact img {
+  width: 35%;
+  margin-top: 54px;
+  height: fit-content;
+}
+
+.contact .form {
+  width: 65%;
+  margin: 20px 0 0 50px;
+}
+
+.contact .form .input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h1 {
+  text-align: center;
+  color: rgb(10, 10, 10);
+}
+
+.input {
+  margin-bottom: 16px;
+}
+
+.input label {
+  margin-bottom: 4px;
+}
+
+.input select {
+  width: 93%;
+}
+
+.input input,
+select,
+textarea {
+  padding: 8px;
+  border-radius: 4px;
+  border: 2px solid rgb(185, 185, 185);
+  width: 90%;
+}
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+}
+
+.form button {
+  margin-left: 150px;
+  margin-top: 24px;
+  background-color: rgb(5, 47, 106);
+  color: white;
+  border: none;
+  border-radius: 24px;
+  padding: 14px 160px;
+}
